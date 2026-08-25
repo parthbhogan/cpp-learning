@@ -21,7 +21,7 @@ there are two types of comments in C++:
 //code----->
 #include <iostream>
 using namespace std;   
-main ()
+int main ()
 {
 int a = 10; // integer variable
 float b = 6.77; // floating-point variable  
