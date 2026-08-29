@@ -12,4 +12,8 @@ int main(){
     for(int j=0;j<5;j++){
     arr2[j]=arr[j];
     }
+    for(int j=0;j<5;j++){
+    cout<<arr2[j]<<" ";
+    }
 return 0;
+}

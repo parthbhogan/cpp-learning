@@ -4,10 +4,10 @@ int main()
 {
 for(int row=1;row<=5;row++)
 {
-for(int i=1;i<=row;i++)
+for(int i=1;i<=row;i++){
 cout<<"* ";
-
 }
 cout<<endl;
+}
 return 0;
 }

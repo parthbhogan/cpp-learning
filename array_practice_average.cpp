@@ -7,7 +7,7 @@ int main(){
         cin>>arr[i];
     }
     float avg;
-    int sum=0;
+    float sum=0;
     for(int j=0;j<5;j++){
             sum=sum+arr[j];
     }

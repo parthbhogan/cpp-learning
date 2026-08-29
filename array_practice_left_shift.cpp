@@ -6,13 +6,14 @@ int main(){
         cout<<"enter your numbers: ";
         cin>>arr[i];
     }
-    int max=arr[0];
+    int arr2[5]={};
+    for(int j=1;j<5;j++){
+        arr2[j-1]=arr[j];
+        
+    }
+    arr2[4]=arr[0];
     for(int j=0;j<5;j++){
-    if(arr[j]>max){
-        max=arr[j];
+        cout<<arr2[j]<<" ";
     }
-    }
-    cout<<max<<" is maximum";
     return 0;
-
 }

@@ -6,18 +6,14 @@ int main(){
         cout<<"enter your numbers: ";
         cin>>arr[i];
     }
-    float sum=0;
-    int count=0;
-    float avg;
     for(int j=0;j<7;j++){
-        sum=sum+arr[j];
-    }
-    avg=sum/7;
-    for(int j=0;j<7;j++){
-        if(arr[j]>avg){
-            count++;
+        if(arr[j]%2==0){
+            arr[j]=0;
         }
+        else if(arr[j]%2==1){
+            arr[j]=1;
+        }
+        cout<<arr[j]<<" ";
     }
-    cout<<"Numbers above average"<<" = "<<count;
     return 0;
 }
